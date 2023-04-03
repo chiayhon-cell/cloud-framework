@@ -19,7 +19,7 @@
     </modules>
 
     <properties>
-        <revision>1.0.0-SNAPSHOT</revision>
+        <framework.version>${project.version}</framework.version>
     </properties>
 
 </project>
