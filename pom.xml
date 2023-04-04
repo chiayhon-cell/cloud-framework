@@ -16,10 +16,11 @@
     <modules>
         <module>cloud-framework-common</module>
         <module>cloud-framework-spring-boot-starter-mybatis</module>
+        <module>cloud-framework-spring-boot-starter-storage</module>
     </modules>
 
     <properties>
-        <framework.version>${project.version}</framework.version>
+        <framework.version>1.0.0-SNAPSHOT</framework.version>
     </properties>
 
 </project>
