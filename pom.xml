@@ -17,6 +17,7 @@
         <module>cloud-framework-common</module>
         <module>cloud-framework-spring-boot-starter-orm</module>
         <module>cloud-framework-spring-boot-starter-storage</module>
+        <module>cloud-framework-spring-boot-starter-test</module>
     </modules>
 
     <properties>
