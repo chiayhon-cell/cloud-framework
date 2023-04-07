@@ -13,23 +13,28 @@
     <description>测试组件，用于单元测试、集成测试</description>
 
     <dependencies>
-        <!-- 公共组件 -->
-        <dependency>
-            <groupId>com.cloud.cy</groupId>
-            <artifactId>cloud-framework-common</artifactId>
-        </dependency>
-
         <!-- DB 相关 -->
         <dependency>
             <groupId>com.cloud.cy</groupId>
             <artifactId>cloud-framework-spring-boot-starter-orm</artifactId>
+            <optional>true</optional>
         </dependency>
+
+        <dependency>
+            <groupId>com.h2database</groupId> <!-- 单元测试，我们采用 H2 作为数据库 -->
+            <artifactId>h2</artifactId>
+        </dependency>
+
 
         <!-- 单元测试 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-inline</artifactId>
         </dependency>
 
     </dependencies>

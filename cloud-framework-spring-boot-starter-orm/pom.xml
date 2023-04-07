@@ -13,10 +13,12 @@
     <name>cloud-framework-spring-boot-starter-mybatis</name>
 
     <dependencies>
+        <!-- 公共组件 -->
         <dependency>
             <groupId>com.cloud.cy</groupId>
             <artifactId>cloud-framework-common</artifactId>
         </dependency>
+
         <!--        mybatis-plus        -->
         <dependency>
             <groupId>com.baomidou</groupId>
@@ -27,6 +29,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
+            <scope>runtime</scope>
         </dependency>
     </dependencies>
 </project>
