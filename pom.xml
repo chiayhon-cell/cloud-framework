@@ -15,7 +15,7 @@
 
     <modules>
         <module>cloud-framework-common</module>
-        <module>cloud-framework-spring-boot-starter-mybatis</module>
+        <module>cloud-framework-spring-boot-starter-orm</module>
         <module>cloud-framework-spring-boot-starter-storage</module>
     </modules>
 
