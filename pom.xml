@@ -18,6 +18,7 @@
         <module>cloud-framework-spring-boot-starter-orm</module>
         <module>cloud-framework-spring-boot-starter-storage</module>
         <module>cloud-framework-spring-boot-starter-test</module>
+        <module>cloud-framework-spring-boot-starter-elaticsearch</module>
     </modules>
 
     <properties>
